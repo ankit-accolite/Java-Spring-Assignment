@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans
+  http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean class=" prac.springAssignment1.Student" id="sid1">
+	<property name="StudentId"><value>1001</value></property>
+	<property name="StudentName"><value>Ravi</value></property>
+	<property name="marks">
+		<map>
+			<entry key="English" value="95"/>
+			<entry key="Java" value="97"/>
+			<entry key="SQL" value="92"/>
+			<entry key="OS" value="95"/>
+			<entry key="Networking" value="85"/>
+		</map>
+	</property>
+	</bean>
+
+	 <bean class=" prac.springAssignment1.Student" id="sid2">
+	<property name="StudentId"><value>1002</value></property>
+	<property name="StudentName"><value>Ramesh</value></property>
+	<property name="marks">
+		<map>
+			<entry key="Physics" value="60"/>
+			<entry key="Chemistry" value="87"/>
+			<entry key="Biology" value="82"/>
+			<entry key="Mathematics" value="55"/>
+			<entry key="Information Technology" value="98"/>
+		</map>
+	</property>
+	</bean>
+
+	 <bean class=" prac.springAssignment1.Student" id="sid3">
+	<property name="StudentId"><value>1003</value></property>
+	<property name="StudentName"><value>Kavi</value></property>
+	<property name="marks">
+		<map>
+			<entry key="DBMS" value="90"/>
+			<entry key="Devops" value="77"/>
+			<entry key="Linux" value="94"/>
+			<entry key="ML" value="80"/>
+			<entry key="Python" value="75"/>
+		</map>
+	</property>
+	</bean>
+ </beans>
